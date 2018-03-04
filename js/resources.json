@@ -1,0 +1,2059 @@
+//categories
+/*
+jobs - 1
+medium - 1
+books - 2 (combi)
+tools - 2
+chats - 3
+*/
+window.resources = [
+    {
+        "name": "CryptoHackers",
+        "link": "https://cryptohackers.party/",
+        "description": "Cryptoworld superheroes interviews. Fascinating facts, teams insides and success stories.\n  ",
+        "categories": "resource-item magazines"
+    },
+    {
+        "name": "CoinTelegraph",
+        "link": "https://cointelegraph.com/",
+        "description": "The leading publication offering latest news, analysis, expert opinions, community commentaries. Founded in 2013.",
+        "categories": "resource-item magazines"
+    },
+    {
+        "name": "CoinDesk",
+        "link": "https://www.coindesk.com/",
+        "description": "CoinDesk is the world leader in news and information on digital currencies. 17M mothly users.",
+        "categories": "resource-item magazines"
+    },
+    {
+        "name": "CryptoCoins News",
+        "link": "https://www.cryptocoinsnews.com/",
+        "description": "Fresh news and analysis. This huge blog posts very frequently. Approx. 7M readers monthly.",
+        "categories": "resource-item magazines"
+    },
+    {
+        "name": "Bitcoin Magazine",
+        "link": "https://bitcoinmagazine.com/",
+        "description": "Bitcoin Magazine is the oldest and most established source of news, information and expert commentaries. Sometimes posts deep and very interesting articles.",
+        "categories": "resource-item magazines"
+    },
+    {
+        "name": "99 Bitcoins",
+        "link": "https://99bitcoins.com/",
+        "description": "99 Bitcoins is the largest information source for non technical newbies.",
+        "categories": "resource-item magazines"
+    },
+    {
+        "name": "Coin Speaker",
+        "link": "https://www.coinspeaker.com/",
+        "description": "Founded in 2014, CoinSpeaker is one of the most influentional news source.",
+        "categories": "resource-item magazines"
+    },
+    {
+        "name": "The Memory Pool",
+        "link": "http://nakamotoinstitute.org/mempool/",
+        "description": "Satoshi Nakamoto Institute blog.",
+        "categories": "resource-item magazines"
+    },
+    {
+        "name": "Tim Swanson Blog",
+        "link": "http://www.ofnumbers.com/category/bitcoin/",
+        "description": "Blog of director of market research at R3.",
+        "categories": "resource-item magazines"
+    },
+    {
+        "name": "Oleg Andreev Blog",
+        "link": "http://blog.oleganza.com/",
+        "description": "Blog of hardcore developer, product architect at Chain.com.",
+        "categories": "resource-item magazines"
+    },
+    {
+        "name": "Freedom to Tinker",
+        "link": "https://freedom-to-tinker.com/tag/bitcoin/",
+        "description": "Princeton hosted tech blog: researches and experts commentaries.",
+        "categories": "resource-item magazines"
+    },
+    {
+        "name": "Money and State",
+        "link": "http://moneyandstate.com/",
+        "description": "Blog of Erik Voorhees, CEO of leading digital asset exchange ShapeShift.io",
+        "categories": "resource-item magazines"
+    },
+    {
+        "name": "Gavin Andersesn Blog",
+        "link": "http://gavinandresen.ninja/",
+        "description": "Blog of Bitcoin developer.",
+        "categories": "resource-item magazines"
+    },
+    {
+        "name": "Peter Todd Blog",
+        "link": "https://petertodd.org/",
+        "description": "Blog of Todd, the applied cryptography consultant.",
+        "categories": "resource-item magazines"
+    },
+    {
+        "name": "Richard Brown Blog",
+        "link": "https://gendal.me/tag/bitcoin/",
+        "description": "Blog of Head of Technology at R3CEV.",
+        "categories": "resource-item magazines"
+    },
+    {
+        "name": "Laanwj Blog",
+        "link": "https://laanwj.github.io/",
+        "description": "Blog of Bitcoin core developer and reverse engineer.",
+        "categories": "resource-item magazines"
+    },
+    {
+        "name": "Crypto Analyst",
+        "link": "https://www.cryptoanalyst.co/",
+        "description": "World’s premier cryptocurrency news analysis.",
+        "categories": "resource-item magazines"
+    },
+    {
+        "name": "Bitrazzi",
+        "link": "https://bitrazzi.com/",
+        "description": "Bitcoin, Cryptocurrency And Blockchain News.",
+        "categories": "resource-item magazines"
+    },
+    {
+        "name": "Bitfalls",
+        "link": "https://bitfalls.com",
+        "description": "Technical news, solidity tutorials, and skeptical research. EN and HR languages.",
+        "categories": "resource-item magazines"
+    },
+    {
+        "name": "What Bitcoin Did",
+        "link": "https://www.whatbitcoindid.com/",
+        "description": "Blog of accidental Bitcoin and Cryptocurrency investor, miner, blogger and podcaster.",
+        "categories": "resource-item magazines"
+    },
+    {
+        "name": "Vitalik Buterin",
+        "link": "https://medium.com/@VitalikButerin",
+        "description": "Ethereum creator, cryptocurrency evangelist.",
+        "categories": "resource-item medium"
+    },
+    {
+        "name": "Bitcoin Tech Talk",
+        "link": "https://bitcointechtalk.com/",
+        "description": "All About Bitcoin Development.",
+        "categories": "resource-item medium"
+    },
+    {
+        "name": "Tuur Demeester",
+        "link": "https://medium.com/@tuurdemeester",
+        "description": "Economist & investor, editor in chief at Adamant Research.",
+        "categories": "resource-item medium"
+    },
+    {
+        "name": "Vinny Lingham",
+        "link": "https://vinnylingham.com/",
+        "description": "CEO of Civic.com.",
+        "categories": "resource-item medium"
+    },
+    {
+        "name": "Nicolas Dorier",
+        "link": "https://medium.com/@nicolasdorier",
+        "description": "Main developer of NBitcoin. CTO at Metaco SA.",
+        "categories": "resource-item medium"
+    },
+    {
+        "name": "Nick Tomaino",
+        "link": "https://thecontrol.co/@ntmoney",
+        "description": "Tech investor @RunaCapital.",
+        "categories": "resource-item medium"
+    },
+    {
+        "name": "Eric Lombrozo",
+        "link": "https://medium.com/@elombrozo",
+        "description": "Co-CEO & CTO Ciphrex Corp., Bitcoin Core contributor.",
+        "categories": "resource-item medium"
+    },
+    {
+        "name": "Jimmy Song",
+        "link": "https://medium.com/@jimmysong",
+        "description": "Bitcoin Developer and Entrepreneur.",
+        "categories": "resource-item medium"
+    },
+    {
+        "name": "Nicolas Dorier",
+        "link": "https://medium.com/@nicolasdorier",
+        "description": "Main developer of NBitcoin. CTO at Metaco SA.",
+        "categories": "resource-item medium"
+    },
+    {
+        "name": "Linda Xie",
+        "link": "https://medium.com/@linda.xie",
+        "description": "Product Manager @Coinbase. Advisor @0xProject.",
+        "categories": "resource-item medium"
+    },
+    {
+        "name": "Fred Ehrsam",
+        "link": "https://medium.com/@FEhrsam",
+        "description": "Previously co-founder @Coinbase, trader @GoldmanSachs, computer science @DukeU.",
+        "categories": "resource-item medium"
+    },
+    {
+        "name": "Token Economy",
+        "link": "https://tokeneconomy.co/",
+        "description": "Making sense of the latest in crypto-land: cryptocurrencies, blockchains, ICOs, dapps & the growing token economy.",
+        "categories": "resource-item medium"
+    },
+    {
+        "name": "The Midas Guide",
+        "link": "https://medium.com/the-midas-guide",
+        "description": "Blockchain & crypto original researches.",
+        "categories": "resource-item medium"
+    },
+    {
+        "name": "Best of CryptoHeresy",
+        "link": "https://t.me/cryptoheresy",
+        "description": "Transmits best topics from CryptoHeresy forum.",
+        "categories": "resource-item telegram"
+    },
+    {
+        "name": "Crypto Memes",
+        "link": "https://t.me/join_cryptomemes",
+        "description": "Cryptoworld funny pictures.",
+        "categories": "resource-item telegram"
+    },
+    {
+        "name": "Crypto",
+        "link": "https://t.me/Crypto",
+        "description": "The god of all crypto channels.",
+        "categories": "resource-item telegram"
+    },
+    {
+        "name": "UpcomingICOs",
+        "link": "https://t.me/UpcomingICOs",
+        "description": "This channel is dedicated to informing people of up and coming ICO's.",
+        "categories": "resource-item telegram"
+    },
+    {
+        "name": "CryptoNews",
+        "link": "https://t.me/bitcoinnews",
+        "description": "Cryptocurrency news megafeed that is posted in real time, even before they hit social media.",
+        "categories": "resource-item telegram"
+    },
+    {
+        "name": "Ethereum dapps",
+        "link": "https://t.me/ethereumdapps",
+        "description": "Ethereum & DAPPS news and updates.",
+        "categories": "resource-item telegram"
+    },
+    {
+        "name": "CoinBuzz",
+        "link": "https://coinbuzz.stream/",
+        "description": "CoinBuzz aggregates news from many sources (Twitter, Reddit, Google Trends etc) and displays it in the Trello style.",
+        "categories": "resource-item news"
+    },
+    {
+        "name": "CryptoPanic",
+        "link": "https://cryptopanic.com/",
+        "description": "CryptoPanic is news aggregator platform indicating impact on price and market for traders and cryptocurrency enthusiasts.",
+        "categories": "resource-item news"
+    },
+    {
+        "name": "ETHNews",
+        "link": "https://www.ethnews.com",
+        "description": "ETHNews is emerging provider of Ethereum and Blockchain ecosystem news.",
+        "categories": "resource-item news"
+    },
+    {
+        "name": "Coin Spectator",
+        "link": "https://coinspectator.com/",
+        "description": "Get the latest cryptocurrency, bitcoin & blockchain news from many news sources.",
+        "categories": "resource-item news"
+    },
+    {
+        "name": "CoinTerminal",
+        "link": "https://site.cointerminal.co/",
+        "description": "CoinTerminal instantly aggregates, summarizes and analyzes market chatter for sentiment and streams it in real-time.",
+        "categories": "resource-item news"
+    },
+    {
+        "name": "CoinsCalendar",
+        "link": "http://www.coinscalendar.com/",
+        "description": "CoinsCalendar displays all upcoming coins events and updates.",
+        "categories": "resource-item news"
+    },
+    {
+        "name": "CoinDar",
+        "link": "https://coindar.org/",
+        "description": "Be first to know about coming cryptocurrency news, updates, hard forks, meetups, coins listing on exchanges and other important events.",
+        "categories": "resource-item news"
+    },
+    {
+        "name": "BTCnews",
+        "link": "https://itunes.apple.com/app/btcnews-bitcoin-cryptocurrency/id946903421",
+        "description": "Mature cryptocurrency news and charts app for iOS.",
+        "categories": "resource-item news"
+    },
+    {
+        "name": "Altcoins Racing",
+        "link": "https://altcoins.racing/",
+        "description": "Altcoins Racing shows the price change winners and losers.",
+        "categories": "resource-item price"
+    },
+    {
+        "name": "CoinMarketcap",
+        "link": "https://coinmarketcap.com/",
+        "description": "Old and cool. All coins prices, graphs, market caps. API, widgets, tools. Used by 90M monthly users.",
+        "categories": "resource-item price"
+    },
+    {
+        "name": "Coincap",
+        "link": "http://coincap.io/",
+        "description": "CoinCap tracks market data for hundreds of cryptocurrencies in real-time. They also have very useful mobile app.",
+        "categories": "resource-item price"
+    },
+    {
+        "name": "Cryptowatch",
+        "link": "https://cryptowat.ch",
+        "description": "Live price charts and market data for Bitcoin, Ethereum, and more. Many exchanges, flexible settings and cool API.",
+        "categories": "resource-item price"
+    },
+    {
+        "name": "Bfxdata",
+        "link": "https://www.bfxdata.com/",
+        "description": "Charts and Stats for Bitfinex market data and margin funding.",
+        "categories": "resource-item price"
+    },
+    {
+        "name": "Bitcoinwisdom",
+        "link": "https://bitcoinwisdom.com",
+        "description": "Live Bitcoin/Litecoin charts with EMA, MACD and other indicators. Support many exchanges (Bitfinex, Bitstamp, Coinbase, Bittrex, Poloniex etc).",
+        "categories": "resource-item price"
+    },
+    {
+        "name": "Flippening Watch",
+        "link": "http://www.flippening.watch/",
+        "description": "When will Ethereum overtake Bitcoin and become the most important cryptocurrency?",
+        "categories": "resource-item price"
+    },
+    {
+        "name": "Coindex",
+        "link": "https://coindexapp.com",
+        "description": "Beautiful cryptocurrency price tracker for iOS.",
+        "categories": "resource-item price"
+    },
+    {
+        "name": "WorldCoinIndex",
+        "link": "https://www.worldcoinindex.com/",
+        "description": "Realtime cryptocurrency price monitoring tool. Lots of altcoins and many fiat currencies.",
+        "categories": "resource-item price"
+    },
+    {
+        "name": "CryptoTrader",
+        "link": "https://cryptrader.com/",
+        "description": "Cryptocurrency trading platform. Charts, news and trollbox. Add widgets to customize the look.",
+        "categories": "resource-item price"
+    },
+    {
+        "name": "Coin Daily Update",
+        "link": "https://coindailyupdate.com",
+        "description": "Daily email update with price changes of customizable coins.",
+        "categories": "resource-item price"
+    },
+    {
+        "name": "Coindera",
+        "link": "https://coindera.com/",
+        "description": "Real time cryptocurrency price alerts for 2,000+ coins on 25+ exchanges.",
+        "categories": "resource-item price"
+    },
+    {
+        "name": "Cryptocurrency CLI",
+        "link": "https://github.com/christ0ph3r/cryptocurrency-cli",
+        "description": "Cryptocurrency portfolio on the command line.",
+        "categories": "resource-item price"
+    },
+    {
+        "name": "Local Bitcoins",
+        "link": "https://localbitcoins.com/",
+        "description": "Buy and sell bitcoins near you. Trusted by 10M monthly users.",
+        "categories": "resource-item exchanges"
+    },
+    {
+        "name": "Poloniex",
+        "link": "https://www.poloniex.com/",
+        "description": "USA. Trust: 3.5/5. Tons of altcoins. Poor support.",
+        "categories": "resource-item exchanges"
+    },
+    {
+        "name": "CoinBase",
+        "link": "https://www.coinbase.com",
+        "description": "USA. Trust: 5/5. Pay with fiat.",
+        "categories": "resource-item exchanges"
+    },
+    {
+        "name": "Kraken",
+        "link": "https://www.kraken.com/",
+        "description": "USA. Trust: 5/5. Founded in 2011.",
+        "categories": "resource-item exchanges"
+    },
+    {
+        "name": "Bittrex",
+        "link": "https://www.bittrex.com",
+        "description": "USA. Trust: 3.8/5. Many altcoins.",
+        "categories": "resource-item exchanges"
+    },
+    {
+        "name": "CEX.IO",
+        "link": "https://cex.io/",
+        "description": "UK. Trust: 5/5. Fiat. Newbie friendly.",
+        "categories": "resource-item exchanges"
+    },
+    {
+        "name": "BestBitcoinExchange",
+        "link": "https://www.bestbitcoinexchange.io/",
+        "description": "Curated list of 35 popular exchanges. Looks SEOish but does the job well.",
+        "categories": "resource-item exchanges"
+    },
+    {
+        "name": "Shapeshift",
+        "link": "https://shapeshift.io",
+        "description": "No login, fast, awesome API.",
+        "categories": "resource-item exchanges"
+    },
+    {
+        "name": "Changelly",
+        "link": "https://changelly.com/",
+        "description": "Fiat, nice affiliate program.",
+        "categories": "resource-item exchanges"
+    },
+    {
+        "name": "Cryptoradar",
+        "link": "https://cryptoradar.co",
+        "description": "Compares prices and features from > 25 exchanges and brokers.",
+        "categories": "resource-item exchanges"
+    },
+    {
+        "name": "Binance",
+        "link": "https://www.binance.com",
+        "description": "Modern exchange with the lowest fees and it's own token.",
+        "categories": "resource-item exchanges"
+    },
+    {
+        "name": "Kucoin",
+        "link": "https://www.kucoin.com",
+        "description": "Modern. Evolving really fast. Has it's own token.",
+        "categories": "resource-item exchanges"
+    },
+    {
+        "name": "ICOtracker",
+        "link": "https://icotracker.net",
+        "description": "Very informative and trusted tracker.",
+        "categories": "resource-item ico"
+    },
+    {
+        "name": "The ICO digest",
+        "link": "https://theicodigest.com",
+        "description": "Weekly ICO digest.",
+        "categories": "resource-item ico"
+    },
+    {
+        "name": "TokenData",
+        "link": "https://www.tokendata.io/",
+        "description": "See ICO stats: ROI, total investments, status and other information.",
+        "categories": "resource-item ico"
+    },
+    {
+        "name": "CoinSchedule",
+        "link": "https://www.coinschedule.com",
+        "description": "Live Token Sales & ICOs.",
+        "categories": "resource-item ico"
+    },
+    {
+        "name": "ICO Bazaar",
+        "link": "https://icobazaar.com/list",
+        "description": "Informative website + ICOs alerts.",
+        "categories": "resource-item ico"
+    },
+    {
+        "name": "Picoloresearch",
+        "link": "https://picoloresearch.com/",
+        "description": "Independent research on blockchain startups and ICOs.",
+        "categories": "resource-item ico"
+    },
+    {
+        "name": "Smith + Crown ICO list",
+        "link": "https://www.smithandcrown.com/icos/",
+        "description": "Curated list of ongoing and upcoming token sales. Have some research tiers.",
+        "categories": "resource-item ico"
+    },
+    {
+        "name": "ICORating",
+        "link": "http://icorating.com/",
+        "description": "ICOrating specializes in evaluating companies with planned ICO.",
+        "categories": "resource-item ico"
+    },
+    {
+        "name": "ICO Alert",
+        "link": "https://www.icoalert.com/",
+        "description": "Source for analysis of active and upcoming Initial Coin Offerings.",
+        "categories": "resource-item ico"
+    },
+    {
+        "name": "TokenMarket",
+        "link": "https://tokenmarket.net",
+        "description": "TokenMarket is marketplace for tokens, digital assets and blockchain based investing.",
+        "categories": "resource-item ico"
+    },
+    {
+        "name": "ICOdrops",
+        "link": "https://icodrops.com/",
+        "description": "Constantly updating kanban style ICO board.",
+        "categories": "resource-item ico"
+    },
+    {
+        "name": "ICO Whitelists",
+        "link": "http://icowhitelists.com",
+        "description": "Articles on ICOs. Also tracks growth of 200+ Telegram groups for ICOs.",
+        "categories": "resource-item ico"
+    },
+    {
+        "name": "The Moon Trollbox",
+        "link": "https://t.me/join_trollbox",
+        "description": "Hot news discussions, rumors and friendly talks. No cersorship.",
+        "categories": "resource-item chats"
+    },
+    {
+        "name": "The CHT Community",
+        "link": "https://t.me/join_cht",
+        "description": "Official CryptoHackers Telegram chat. The place to talk to founders of your favourite crypto startups & apps.",
+        "categories": "resource-item chats"
+    },
+    {
+        "name": "Crypto Aquarium",
+        "link": "https://cryptoaquarium.com",
+        "description": "Great community (Telegram, Slack). Curated by Joshua Petty, the Coindex creator. 800+ members.",
+        "categories": "resource-item chats"
+    },
+    {
+        "name": "Bitpam",
+        "link": "https://discordapp.com/invite/VpPrGmF?ref=cryptominded",
+        "description": "Friendly Discord community. 300+ members.",
+        "categories": "resource-item chats"
+    },
+    {
+        "name": "Bitcoin Core Community",
+        "link": "https://t.me/BitcoinCore",
+        "description": "Telegram discussion about Bitcoin and Bitcoin Core. 2000+ members.",
+        "categories": "resource-item chats"
+    },
+    {
+        "name": "BitcoinMarkets",
+        "link": "https://self-inviter-slack2.herokuapp.com/",
+        "description": "Bitcoin and cryptocurrency price discussion. The official Slack of /r/bitcoinmarkets. 4000+ members.",
+        "categories": "resource-item chats"
+    },
+    {
+        "name": "Blockstack",
+        "link": "https://docs.google.com/forms/d/e/1FAIpQLSed5Mnu0G5ZMJdWs6cTO_8sTJfUVfe1sYL6WFDcD51_XuQkZw/viewform",
+        "description": "Official Blockstack Slack community. 3000+ members.",
+        "categories": "resource-item chats"
+    },
+    {
+        "name": "CryptoMinded",
+        "link": "http://community.cryptominded.com/",
+        "description": "All things crypto: events, jobs, trades, news. 1000+ Slack members.",
+        "categories": "resource-item chats"
+    },
+    {
+        "name": "IRC #bitcoin channel",
+        "link": "https://webchat.freenode.net/?channels=bitcoin&uio=d4/",
+        "description": "Old good IRC. The channel of 200 silent people.",
+        "categories": "resource-item chats"
+    },
+    {
+        "name": "CryptoHeresy ⚡️",
+        "link": "https://cryptoheresy.com",
+        "description": "Fresh Bitcoin forum with focus on cryptocurrency tools and resources.",
+        "categories": "resource-item forums"
+    },
+    {
+        "name": "Bitcoin Talk",
+        "link": "https://bitcoinTalk.org/",
+        "description": "Homepage of the Bitcoin community from the start. Made by Satoshi Nakamoto in 2009.",
+        "categories": "resource-item forums"
+    },
+    {
+        "name": "Bitcoin.com Forum",
+        "link": "https://forum.bitcoin.com/",
+        "description": "Strong community of 30,000+ users.",
+        "categories": "resource-item forums"
+    },
+    {
+        "name": "BitcoinGarden",
+        "link": "https://bitcoingarden.org",
+        "description": "This young forum has appeared in Jan 2017.",
+        "categories": "resource-item forums"
+    },
+    {
+        "name": "CryptoCurrencyTalk",
+        "link": "https://cryptocurrencytalk.com/",
+        "description": "Born in 2013, very active forum. Modern engine.",
+        "categories": "resource-item forums"
+    },
+    {
+        "name": "Cryptocompare",
+        "link": "https://www.cryptocompare.com",
+        "description": "CryptoCompare is interactive platform where you can discuss the latest crypto trends and monitor all markets streaming in real time. Also includes perfect altfoilio app.",
+        "categories": "resource-item communities"
+    },
+    {
+        "name": "Trading View",
+        "link": "https://www.tradingview.com/u/DLavrov/",
+        "description": "Follow pro traders and learn from their analyzes. (Mr. Lavrov is great specialist).",
+        "categories": "resource-item communities"
+    },
+    {
+        "name": "Bitcoin on StackExchange",
+        "link": "https://bitcoin.stackexchange.com/",
+        "description": "Question and answer site for Bitcoin crypto-currency enthusiasts.",
+        "categories": "resource-item communities"
+    },
+    {
+        "name": "/r/Bitcoin/",
+        "link": "https://www.reddit.com/r/Bitcoin/",
+        "description": "Discuss Bitcoin news on Reddit. 300,000+ readers.",
+        "categories": "resource-item communities"
+    },
+    {
+        "name": "Steemit",
+        "link": "https://steemit.com",
+        "description": "Fancy Reddit running on a blockchain. Post to earn $. Spend $ to promote yourself.",
+        "categories": "resource-item communities"
+    },
+    {
+        "name": "Quality Crypto",
+        "link": "https://twitter.com/followingell/lists/quality-crypto",
+        "description": "List of more than 50 prominent, high signal-to-noise-ratio accounts.",
+        "categories": "resource-item twitter"
+    },
+    {
+        "name": "Coinality",
+        "link": "https://coinality.com/",
+        "description": "Coinality is free service connecting crypto employers and job seekers.",
+        "categories": "resource-item jobs"
+    },
+    {
+        "name": "Cryptogrind",
+        "link": "https://www.cryptogrind.com/",
+        "description": "Bitcoin freelance platform.",
+        "categories": "resource-item jobs"
+    },
+    {
+        "name": "Blockchain Dev Jobs",
+        "link": "https://blockchaindevjobs.com/",
+        "description": "Curated list of jobs from around the web for blockchain engineers.",
+        "categories": "resource-item jobs"
+    },
+    {
+        "name": "Ethlance",
+        "link": "https://ethlance.com",
+        "description": "Hire or work for ETH.",
+        "categories": "resource-item jobs"
+    },
+    {
+        "name": "/r/Jobs4Bitcoins/",
+        "link": "https://www.reddit.com/r/Jobs4Bitcoins/",
+        "description": "Place on Reddit to offer your talents and skills in exchange for the fastest growing currency in the world.",
+        "categories": "resource-item jobs"
+    },
+    {
+        "name": "Crypto.jobs",
+        "link": "https://crypto.jobs",
+        "description": "Well categorized jobs list. Owner does a lot to promote it.",
+        "categories": "resource-item jobs"
+    },
+    {
+        "name": "Beincrypto",
+        "link": "https://beincrypto.com",
+        "description": "Aggregates all the crypto jobs from major job boards.",
+        "categories": "resource-item jobs"
+    },
+    {
+        "name": "Jobs by BlockRepublic",
+        "link": "http://blockrepublic.io/blockchain-jobs/",
+        "description": "Useful filters, locations & categories.",
+        "categories": "resource-item jobs"
+    },
+    {
+        "name": "Crypto Jobs List",
+        "link": "https://cryptojobslist.com/",
+        "description": "Curated jobs from top verified blockchain companies.",
+        "categories": "resource-item jobs"
+    },
+    {
+        "name": "Bitcoin Core",
+        "link": "https://bitcoin.org/en/download",
+        "description": "Bitcoin Core is MIT licensed open source Bitcoin wallet. It runs own full node so 145GG of free disk space is required. OSX/Linux/Windows/Ubuntu.",
+        "categories": "resource-item wallets"
+    },
+    {
+        "name": "Blockchain.info",
+        "link": "https://blockchain.info/wallet/#/",
+        "description": "World’s most popular digital wallet. Mobile apps included.",
+        "categories": "resource-item wallets"
+    },
+    {
+        "name": "Electrum",
+        "link": "https://electrum.org/#home",
+        "description": "Thin Bitcoin client. Opensource, MIT, has 100+ contributors.",
+        "categories": "resource-item wallets"
+    },
+    {
+        "name": "Exodus",
+        "link": "https://www.exodus.io",
+        "description": "Exodus is the first desktop multi-asset wallet with ShapeShift built in.",
+        "categories": "resource-item wallets"
+    },
+    {
+        "name": "MyEtherWallet",
+        "link": "https://www.myetherwallet.com",
+        "description": "Opensource webapp to access Ethereum. Old and reliable. ERC20 support. Loved by phishers!",
+        "categories": "resource-item wallets"
+    },
+    {
+        "name": "Coinomi",
+        "link": "https://coinomi.com/",
+        "description": "Opensource, supports many altcoins, fast and has perfect UI.",
+        "categories": "resource-item wallets"
+    },
+    {
+        "name": "Jaxx",
+        "link": "https://jaxx.io",
+        "description": "Reliable, Jaxx supports many of the leading cryptocurrency platforms. Crossplatform.",
+        "categories": "resource-item wallets"
+    },
+    {
+        "name": "Ledger Hardware",
+        "link": "https://www.ledgerwallet.com",
+        "description": "Reliable hardware wallet. Supports BTC/ETH/ETC/DASH/DOGE and many more coins and ERC20 tokens.",
+        "categories": "resource-item wallets"
+    },
+    {
+        "name": "Trezor Hardware",
+        "link": "https://trezor.io",
+        "description": "The first & most secure hardware wallet. Supports BTC/ETH/ETC/DASH/ and many more coins and ERC20 tokens.",
+        "categories": "resource-item wallets"
+    },
+    {
+        "name": "CoinBase",
+        "link": "https://www.coinbase.com/",
+        "description": "Buy Bitcoin for $, NFC payments, requested payments.",
+        "categories": "resource-item wallets"
+    },
+    {
+        "name": "MyCelium",
+        "link": "https://wallet.mycelium.com",
+        "description": "Geeky wallet, easy to set miners fee, rich transaction details.",
+        "categories": "resource-item wallets"
+    },
+    {
+        "name": "Samourai",
+        "link": "https://samouraiwallet.com/",
+        "description": "Secure Bitcoin wallet for Android.",
+        "categories": "resource-item wallets"
+    },
+    {
+        "name": "WalletList",
+        "link": "https://walletlist.me",
+        "description": "Showcase your public cryptocurrency addresses.",
+        "categories": "resource-item wallets"
+    },
+    {
+        "name": "WalletGenerator.net",
+        "link": "https://walletgenerator.net",
+        "description": "Universal JavaScript client-side wallet generator for 100+ coins.",
+        "categories": "resource-item wallets"
+    },
+    {
+        "name": "Blockfolio",
+        "link": "https://www.blockfolio.com/",
+        "description": "Cryptocurrency management, with easy to use tools to keep track of all your cryptocurrency investments. Nice widgets. Simple. Android/iOS.",
+        "categories": "resource-item portfolio"
+    },
+    {
+        "name": "ACrypto",
+        "link": "https://dworks.in/acrypto",
+        "description": "Track bitcoin and altcoins prices, custom alarms, detailed charts. Flexible, many settings, informative. Available for iOS & Android.",
+        "categories": "resource-item portfolio"
+    },
+    {
+        "name": "Altpocket",
+        "link": "http://www.altpocket.io",
+        "description": "The only tool you need for showcasing, tracking and sharing your cryptocurrency investments.",
+        "categories": "resource-item portfolio"
+    },
+    {
+        "name": "Coinfyi",
+        "link": "https://coin.fyi",
+        "description": "Track your performance, news & market signals related to your cryptocurrency investments. Anonymous. Simple. Free.",
+        "categories": "resource-item portfolio"
+    },
+    {
+        "name": "f0lio",
+        "link": "https://f0l.io",
+        "description": "Beatutiful cryptocurrency portfolio management for mobile devices.",
+        "categories": "resource-item portfolio"
+    },
+    {
+        "name": "BitWorth",
+        "link": "http://www.bitworth.io/",
+        "description": "Cryptocurrency Net Worth Tracker for iOS.",
+        "categories": "resource-item portfolio"
+    },
+    {
+        "name": "CoinDex",
+        "link": "https://coindexapp.com",
+        "description": "iOS app that lets you stay up to date with the cryptocurrency markets you want to\nwatch.",
+        "categories": "resource-item portfolio"
+    },
+    {
+        "name": "Delta",
+        "link": "https://getdelta.io/",
+        "description": " Ultimate cryptocurrency portfolio tracker tool for iOS & Android.",
+        "categories": "resource-item portfolio"
+    },
+    {
+        "name": "Crypto Central",
+        "link": "https://cryptocentral.ai",
+        "description": "Bitcoin & cryptocurrency portfolio tracker for iOS/Android.",
+        "categories": "resource-item portfolio"
+    },
+    {
+        "name": "Cryptagon",
+        "link": "https://cryptagon.io",
+        "description": "Powerful app to track portfolio. Automatic imports from exchanges.",
+        "categories": "resource-item portfolio"
+    },
+    {
+        "name": "Cryptonomy",
+        "link": "https://www.cryptonomynow.com/",
+        "description": "Portfolio tracking, social, forum, chat, ico listings, news aggregator, crypto academy. Android/iOS.",
+        "categories": "resource-item portfolio"
+    },
+    {
+        "name": "wallmine",
+        "link": "https://wallmine.com/stocks-and-cryptocurrency-portfolio-tracker",
+        "description": "Track both cryptocurrencies and stocks; screeners, heatmaps, news, push notifications.",
+        "categories": "resource-item portfolio"
+    },
+    {
+        "name": "CoinTracker",
+        "link": "https://www.cointracker.io",
+        "description": "Cryptocurrency asset tracker that automatically pulls all balances and transactions from exchanges and cryptocurrency wallets.",
+        "categories": "resource-item portfolio"
+    },
+    {
+        "name": "Coin Beat",
+        "link": "http://www.coinbeatapp.com/",
+        "description": "Crypto tracker for managing over 1300 crypto currencies. Get instant push notification on price activity. iOS and Android.",
+        "categories": "resource-item portfolio"
+    },
+    {
+        "name": "The Cryptoverse",
+        "link": "https://www.youtube.com/channel/UCLnQ34ZBSjy2JQjeRudFEDw",
+        "description": "Your cryptocurrency news dose.",
+        "categories": "resource-item youtube"
+    },
+    {
+        "name": "World Crypto Network",
+        "link": "https://www.youtube.com/user/WorldCryptoNetwork",
+        "description": "Informative news digests.",
+        "categories": "resource-item youtube"
+    },
+    {
+        "name": "Crypt0",
+        "link": "https://www.youtube.com/user/obham001",
+        "description": " Omar is one of the most popular crypto bloggers. He creates fascinating interviews.",
+        "categories": "resource-item youtube"
+    },
+    {
+        "name": "Ameer Rosic",
+        "link": "https://www.youtube.com/user/AmeerRosic",
+        "description": " News, interviews, podcasts and reviews.",
+        "categories": "resource-item youtube"
+    },
+    {
+        "name": "aantonop",
+        "link": "https://www.youtube.com/user/aantonop/featured",
+        "description": " Presentations, discussions, QA by Andreas, the author of \"Mastering Bitcoin\".",
+        "categories": "resource-item youtube"
+    },
+    {
+        "name": "CoinSummit",
+        "link": "https://www.youtube.com/channel/UCr4QRCZDXrCecaV2w4nuLeQ/",
+        "description": "CoinSummit records: startups showcases, discussions and presentations.",
+        "categories": "resource-item youtube"
+    },
+    {
+        "name": "BitcoinFilm",
+        "link": "https://www.youtube.com/channel/UC42Y8ajCzQ_rjS_wVTamglQ",
+        "description": "Short films about people using Bitcoin.",
+        "categories": "resource-item youtube"
+    },
+    {
+        "name": "Bitcoin and Cryptocurrency Course",
+        "link": "https://www.youtube.com/channel/UCNcSSleedtfyDuhBvOQzFzQ/videos",
+        "description": "Bitcoin and Cryptocurrency Technologies course. 12 videos, each 45-90 mins.",
+        "categories": "resource-item youtube"
+    },
+    {
+        "name": "CryptoPortfolio",
+        "link": "https://www.youtube.com/channel/UCI9POyyP-f93JHfkhr2ma2g/featured",
+        "description": "YouTube channel reviewing ICOs and various cryptocurrencies.",
+        "categories": "resource-item youtube"
+    },
+    {
+        "name": "CryptoBud",
+        "link": "https://www.youtube.com/channel/UCAEktd4wejD_N4aPyDPD3zw",
+        "description": "Technical and fundamental analysis on how to\ninvest in cryptocurrency.",
+        "categories": "resource-item youtube"
+    },
+    {
+        "name": "EtherCasts",
+        "link": "https://www.youtube.com/user/EtherCasts",
+        "description": "Ancient Ethereum news, reviews and interviews channel.",
+        "categories": "resource-item youtube"
+    },
+    {
+        "name": "Bitcoin Playlist",
+        "link": "https://www.youtube.com/playlist?list=PL05dEp7goGNiKWYdiE4nurEPFMmF9XpzF",
+        "description": "Great list of 55 Bitcoin talks.",
+        "categories": "resource-item youtube"
+    },
+    {
+        "name": "BiteSizeBitcoin",
+        "link": "https://www.youtube.com/channel/UCnePINazJJpbn9FWaq_skQA/featured",
+        "description": "Great beginner guides. Trading and investing advices, podcasts and meetups.",
+        "categories": "resource-item youtube"
+    },
+    {
+        "name": "Ulterior States",
+        "link": "http://www.iamsatoshi.com/",
+        "description": "Real-life conversations with some thought leaders within the Bitcoin ecosystem. The film took 3 years to complete.",
+        "categories": "resource-item movies"
+    },
+    {
+        "name": "The Bitcoin Doco",
+        "link": "https://vimeo.com/112223859",
+        "description": "Fascinating story focusing on the emergence of new world wide currency.",
+        "categories": "resource-item movies"
+    },
+    {
+        "name": "Life Inside Secret Chinese Bitcoin Mine",
+        "link": "https://www.youtube.com/watch?v=K8kua5B5K3I",
+        "description": "Interesting story about the miners of the new millenium.",
+        "categories": "resource-item movies"
+    },
+    {
+        "name": "Mastering Bitcoin",
+        "link": "https://github.com/bitcoinbook/bitcoinbook",
+        "description": "Mostly for developers. The second edition was published in June 2017.",
+        "categories": "resource-item movies"
+    },
+    {
+        "name": "The Internet of Money",
+        "link": "https://www.amazon.com/Internet-Money-Andreas-M-Antonopoulos/dp/1537000454",
+        "description": "Significance of bitcoin through series of essays spanning the exhilarating maturation of this technology.",
+        "categories": "resource-item movies"
+    },
+    {
+        "name": "Ethereum",
+        "link": "https://www.amazon.com/Ethereum-Blockchains-Decentralized-Autonomous-Organizations/dp/1523930470",
+        "description": "Non-technical guide to understand blockchains. Mostly focused on Ethereum.",
+        "categories": "resource-item movies"
+    },
+    {
+        "name": "The Age of Cryptocurrency",
+        "link": "https://www.amazon.com/Age-Cryptocurrency-Blockchain-Challenging-Economic/dp/1250081556",
+        "description": "Insight into the modern financial system and the Bitcoin industry.",
+        "categories": "resource-item movies"
+    },
+    {
+        "name": "Programming Cryptocurrencies",
+        "link": "https://yukimotopress.github.io/blockchains",
+        "description": "Learn to build your own blockchains and peer-to-peer central bank nodes from scratch.",
+        "categories": "resource-item movies"
+    },
+    {
+        "name": "Coursera Course",
+        "link": "https://www.coursera.org/learn/cryptocurrency",
+        "description": "Telling what is special about Bitcoin and how it works at technical level. Created by Princeton University.",
+        "categories": "resource-item courses"
+    },
+    {
+        "name": "Udemy Course",
+        "link": "https://www.udemy.com/bitcoin-or-how-i-learned-to-stop-worrying-and-love-crypto",
+        "description": "The definitive guide to understand what the bitcoin is and why we should care about them.",
+        "categories": "resource-item courses"
+    },
+    {
+        "name": "Khan's Academy Course",
+        "link": "https://www.khanacademy.org/economics-finance-domain/core-finance/money-and-banking/bitcoin/v/bitcoin-what-is-it",
+        "description": "The very basics of how blockchain, Bitcoin and encryption works.",
+        "categories": "resource-item courses"
+    },
+    {
+        "name": "Pluralsight Course",
+        "link": "https://www.pluralsight.com/courses/bitcoin-decentralized-technology",
+        "description": "Introduction to Bitcoin and decentralized technology for beginners.",
+        "categories": "resource-item courses"
+    },
+    {
+        "name": "CoinPride Newsletter",
+        "link": "https://club.coinpride.com",
+        "description": "The most important crypto news and events. One handcrafted email per week.",
+        "categories": "resource-item learn"
+    },
+    {
+        "name": "Bitcoin Wiki",
+        "link": "https://en.bitcoin.it/wiki/Main_Page",
+        "description": "Technical specifications of the protocol as well as more basic information about how to buy, sell or use bitcoins.",
+        "categories": "resource-item learn"
+    },
+    {
+        "name": "Blockchain Demo",
+        "link": "http://blockchaindemo.io/",
+        "description": "This interactive demo will guide you through each component of blockchain step-by-step.",
+        "categories": "resource-item learn"
+    },
+    {
+        "name": "MyCryptoGuide",
+        "link": "https://mycrypto.guide/",
+        "description": "The guide is meant to serve as both easy-to-understand introduction to the world of cryptocurrencies.",
+        "categories": "resource-item learn"
+    },
+    {
+        "name": "Bad Bitcoin",
+        "link": "http://www.badbitcoin.org",
+        "description": "List of known scams, HYIPs and Ponzi schemes.",
+        "categories": "resource-item learn"
+    },
+    {
+        "name": "EthList",
+        "link": "https://github.com/Scanate/EthList",
+        "description": "The Crowdsourced Ethereum Reading List.",
+        "categories": "resource-item learn"
+    },
+    {
+        "name": "Satoshi Nakamoto WhitePaper",
+        "link": "https://bitcoin.org/bitcoin.pdf",
+        "description": "Bitcoin fundamentals described by the creator.",
+        "categories": "resource-item learn"
+    },
+    {
+        "name": "Bitcoin Developer Docs",
+        "link": "https://bitcoin.org/en/developer-guide",
+        "description": "Detailed information about the Bitcoin protocol and related specifications.",
+        "categories": "resource-item learn"
+    },
+    {
+        "name": "Bitcoin Forks",
+        "link": "http://mapofcoins.com/bitcoin",
+        "description": "All bitcoin forks visualisation.",
+        "categories": "resource-item learn"
+    },
+    {
+        "name": "Coin Demo",
+        "link": "https://coindemo.io",
+        "description": "Visual demonstration of how bitcoin transactions work.",
+        "categories": "resource-item learn"
+    },
+    {
+        "name": "Rhymes With Fiat",
+        "link": "https://www.rhymeswithfiat.com",
+        "description": "Bitcoin webcomic (with educational notes).",
+        "categories": "resource-item learn"
+    },
+    {
+        "name": "Stripe Bitcoin",
+        "link": "https://stripe.com/bitcoin/",
+        "description": "Accepting Bitcoin payments made easy. Great integration from Stripe.",
+        "categories": "resource-item api"
+    },
+    {
+        "name": "Shapeshift",
+        "link": "https://info.shapeshift.io/api",
+        "description": "Embed exchange in your app. Trusted by hundreds of apps.",
+        "categories": "resource-item api"
+    },
+    {
+        "name": "Bittrex",
+        "link": "https://bittrex.com/home/api",
+        "description": "Almighty API. You can do anything with it.",
+        "categories": "resource-item api"
+    },
+    {
+        "name": "Poloniex",
+        "link": "https://poloniex.com/support/api/",
+        "description": "The biggest exchange API. PHP and Python wrapper.",
+        "categories": "resource-item api"
+    },
+    {
+        "name": "CryptoWatch",
+        "link": "https://cryptowat.ch/docs/api",
+        "description": "Public REST API, providing basic information about all markets on Cryptowatch.",
+        "categories": "resource-item api"
+    },
+    {
+        "name": "Microsoft BaaS",
+        "link": "https://azure.microsoft.com/en-in/solutions/blockchain/",
+        "description": "Blockchain as Service (BaaS) from Microsoft Azure.",
+        "categories": "resource-item api"
+    },
+    {
+        "name": "CoinMarketCap",
+        "link": "https://coinmarketcap.com/api/",
+        "description": "Powerful JSON API covering 1000+ coins. Limit: 1 request per 6 sec.",
+        "categories": "resource-item api"
+    },
+    {
+        "name": "CoinCap",
+        "link": "https://github.com/CoinCapDev/CoinCap.io",
+        "description": "Simple and informative. Lots of altcoins. History data. No limits.",
+        "categories": "resource-item api"
+    },
+    {
+        "name": "Bitpay",
+        "link": "https://bitpay.com/",
+        "description": "Use BitPay's retail, ecommerce, billing, and donation tools to accept payments.",
+        "categories": "resource-item dev"
+    },
+    {
+        "name": "Gekko",
+        "link": "https://github.com/askmike/gekko",
+        "description": "Free and open source trading bot. GUI, CLI, NodeJS, nice docs. 18 exchanges (including Bitfinex, Bitstamp and Poloniex).",
+        "categories": "resource-item dev"
+    },
+    {
+        "name": "Zenbot",
+        "link": "https://github.com/carlos8f/zenbot",
+        "description": "Free and open source trading bot. CLI, NodeJS. GDAX, Poloniex, Kraken, Bittrex, Quadriga and Gemini.",
+        "categories": "resource-item dev"
+    },
+    {
+        "name": "Web3.js",
+        "link": "https://github.com/ethereum/web3.js",
+        "description": "Ethereum JS API. Requires nodejs, npm and running node.",
+        "categories": "resource-item dev"
+    },
+    {
+        "name": "OpenZeppelin",
+        "link": "https://openzeppelin.org",
+        "description": "OpenZeppelin is open framework of reusable and secure smart contracts in the Solidity language. 1500+ Slack community members.",
+        "categories": "resource-item dev"
+    },
+    {
+        "name": "GETH",
+        "link": "https://www.ethereum.org/cli",
+        "description": "CLI tools for Ethereum. Python, C++, Go implementations.",
+        "categories": "resource-item dev"
+    },
+    {
+        "name": "Embark",
+        "link": "https://github.com/iurimatias/embark-framework",
+        "description": "Framework for serverless Decentralized Applications using Ethereum, IPFS and other platforms. JS.",
+        "categories": "resource-item dev"
+    },
+    {
+        "name": "Truffle",
+        "link": "http://truffleframework.com/",
+        "description": "The most popular framework for Ethereum. JS.",
+        "categories": "resource-item dev"
+    },
+    {
+        "name": "Bitcoin Knowledge",
+        "link": "http://www.bitcoin.kn/",
+        "description": "Learn about blockchain and fintech.",
+        "categories": "resource-item podcasts"
+    },
+    {
+        "name": "Bitcoin Uncensored",
+        "link": "https://etherreview.info/tagged/podcast",
+        "description": "Exploring the verifiable computing space through the lens of Ethereum.",
+        "categories": "resource-item podcasts"
+    },
+    {
+        "name": "BlockChannel",
+        "link": "https://soundcloud.com/blockchannelshow",
+        "description": "Dedicated to educating the world on the power of blockchain based technologies like Bitcoin, Ethereum, and ZCash.",
+        "categories": "resource-item podcasts"
+    },
+    {
+        "name": "Epicenter",
+        "link": "https://epicenter.tv/",
+        "description": "The Podcast at the Forefront of the Decentralized Technology Revolution.",
+        "categories": "resource-item podcasts"
+    },
+    {
+        "name": "Ether Review",
+        "link": "https://etherreview.info/tagged/podcast",
+        "description": "Exploring the verifiable computing space through the lens of Ethereum.",
+        "categories": "resource-item podcasts"
+    },
+    {
+        "name": "Flippening",
+        "link": "https://p.nomics.com/podcast/",
+        "description": "Weekly discussion of the cryptocurrency economy and investment strategies.",
+        "categories": "resource-item podcasts"
+    },
+    {
+        "name": "ICO Alert Podcast",
+        "link": "https://www.icoalert.com/podcast",
+        "description": "Podcast from the popular ICO tracking platform.",
+        "categories": "resource-item podcasts"
+    },
+    {
+        "name": "CoinWarz",
+        "link": "https://www.coinwarz.com",
+        "description": "Mining profitability calculators. Help choosing perfect coin to mine.",
+        "categories": "resource-item mining"
+    },
+    {
+        "name": "WhatToMine?",
+        "link": "https://whattomine.com",
+        "description": "Find the most profitable cryptocurrencies to mine.",
+        "categories": "resource-item mining"
+    },
+    {
+        "name": "Bitcoin Difficulty",
+        "link": "https://bitcoinwisdom.com/bitcoin/difficulty",
+        "description": "Realtime Mining Statistics.",
+        "categories": "resource-item mining"
+    },
+    {
+        "name": "Mining pools",
+        "link": "https://blockchain.info/pools",
+        "description": "Mining pool hashrate distribution.",
+        "categories": "resource-item mining"
+    },
+    {
+        "name": "WhatIsMyHashRate?",
+        "link": "http://www.whatismyhashrate.com/",
+        "description": "Measure your browser's hashrate.",
+        "categories": "resource-item mining"
+    }
+]
+
+window.coins = [
+    {
+        "categories": "coin-item currency",
+        "logoURL": "../images/crypto-logos/59446f92d4c908089df22b0f/5a22d2fc816f0a00016c80bc_btc.png",
+        "name": "Bitcoin",
+        "abbr": "BTC",
+        "websiteURL": "https://bitcoin.org/",
+        "description": "The first cryptocurrency, created 2008. Lets you send and receive money without any middlemen like banks. It is community managed, without a central authority or control."
+    },
+    {
+        "categories": "coin-item apps",
+        "logoURL": "../images/crypto-logos/59446f92d4c908089df22b0f/5a23510319e5440001d3b73c_ether.jpg",
+        "name": "Ethereum",
+        "abbr": "ETH",
+        "websiteURL": "https://www.ethereum.org/",
+        "description": "A platform for creating and running smart contracts. These are programmable applications that run exactly as promised - without downtime, censorship, or interference."
+    },
+    {
+        "categories": "coin-item currency finance enterprise traditional",
+        "logoURL": "../images/crypto-logos/59446f92d4c908089df22b0f/5a2339cf98cc1b0001a6a07a_ripple.png",
+        "name": "Ripple",
+        "abbr": "XRP",
+        "websiteURL": "https://ripple.com/",
+        "description": "A Blockchain payment system for banks, payment providers, digital asset exchanges, and other companies. Designed to move large amounts of money more quickly and reliably."
+    },
+    {
+        "categories": "coin-item currency",
+        "logoURL": "../images/crypto-logos/59446f92d4c908089df22b0f/5a23399119e5440001d3ae1d_bch.jpg",
+        "name": "Bitcoin",
+        "abbr": "BCH",
+        "websiteURL": "https://www.bitcoincash.org/",
+        "description": "A fork of Bitcoin that focuses on processing high volumes of transactions differently. Created because of disagreements about how to best grow digital currency."
+    },
+    {
+        "categories": "coin-item privacy storage apps",
+        "logoURL": "../images/crypto-logos/59446f92d4c908089df22b0f/5a2351a819e5440001d3b754_ada.png",
+        "name": "Cardano",
+        "abbr": "ADA",
+        "websiteURL": "https://www.cardanohub.org/",
+        "description": "A security-focused Blockchain based on peer-reviewed research. A platform for decentralized applications and smart contracts which allows for formal code verification."
+    },
+    {
+        "categories": "coin-item currency",
+        "logoURL": "../images/crypto-logos/59446f92d4c908089df22b0f/5a233983a69b150001f50653_litecoin-logo.png",
+        "name": "Litecoin",
+        "abbr": "LTC",
+        "websiteURL": "https://litecoin.com/",
+        "description": "An offshoot of Bitcoin with very similar features. However, this cryptocurrency is designed for very cheap and fast transaction. Same goal as Bitcoin - to become digital money."
+    },
+    {
+        "categories": "coin-item currency finance",
+        "logoURL": "../images/crypto-logos/59446f92d4c908089df22b0f/5a2349d653055c000177af33_str.png",
+        "name": "Stellar",
+        "abbr": "XLM",
+        "websiteURL": "https://www.stellar.org/",
+        "description": "A nonprofit organization that’s building an open system where people of all income levels can access financial services. Working with banks to enable text message money transfer."
+    },
+    {
+        "categories": "coin-item apps",
+        "logoURL": "../images/crypto-logos/59446f92d4c908089df22b0f/5a23499b98cc1b0001a6a685_eos_1.png",
+        "name": "EOS",
+        "abbr": "EOS",
+        "websiteURL": "https://eos.io/",
+        "description": "Developing an operating-system like platform upon which decentralized applications can be built. Provides a scalable, plug-and-play toolkit for smart contract developers."
+    },
+    {
+        "categories": "coin-item apps enterprise",
+        "logoURL": "../images/crypto-logos/59446f92d4c908089df22b0f/5a23513c98cc1b0001a6a88a_xem.png",
+        "name": "NEM",
+        "abbr": "XEM",
+        "websiteURL": "http://nem.io/",
+        "description": "A platform for businesses and developers that want to build smart contract applications and connect them to the Blockchain. Offers pre-made tools and functionality for this."
+    },
+    {
+        "categories": "coin-item currency",
+        "logoURL": "../images/crypto-logos/59446f92d4c908089df22b0f/5a2339c198cc1b0001a6a077_btg.png",
+        "name": "Bitcoin",
+        "abbr": "BTG",
+        "websiteURL": "https://bitcoingold.org/",
+        "description": "A clone (AKA “fork”) of Bitcoin that focuses on handling high volumes of transactions differently. Similar to Bitcoin Cash and also created because of community disagreements."
+    },
+    {
+        "categories": "coin-item currency apps infrastructure",
+        "logoURL": "../images/crypto-logos/59446f92d4c908089df22b0f/5a6747e94b1e660001c1384d_icon%20copy.png",
+        "name": "ICON",
+        "abbr": "ICX",
+        "websiteURL": "https://www.icon.foundation/",
+        "description": "Decentralized application platform that's building communities in partnership with banks,  insurance providers, hospitals, and universities. Focused on ID verification and payments."
+    },
+    {
+        "categories": "coin-item currency privacy governance",
+        "logoURL": "../images/crypto-logos/59446f92d4c908089df22b0f/5a233a3fa69b150001f5067f_imageedit_27_4355944719.png",
+        "name": "Dash",
+        "abbr": "DASH",
+        "websiteURL": "https://www.dash.org/",
+        "description": "Digital money system designed for fast and secure transactions with optional privacy. Dash is trying to become the default digital cash for the internet, hence the name."
+    },
+    {
+        "categories": "coin-item currency apps internetof",
+        "logoURL": "../images/crypto-logos/59446f92d4c908089df22b0f/5a233a4f98cc1b0001a6a09f_iota_logo.png",
+        "name": "IOTA",
+        "abbr": "IOT",
+        "websiteURL": "https://iota.org/",
+        "description": "Third-generation cryptocurrency offering free, real-time microtransactions between Internet of Things (IoT) devices. Allows future technology to transact without humans."
+    },
+    {
+        "categories": "coin-item apps identity",
+        "logoURL": "../images/crypto-logos/59446f92d4c908089df22b0f/5a233a4698cc1b0001a6a09d_neo.jpg",
+        "name": "NEO",
+        "abbr": "NEO",
+        "websiteURL": "https://neo.org/",
+        "description": "Formerly known as Antshares, NEO is China’s first Blockchain platform. It’s inspired by Ethereum, also focuses on smart contracts, but adds digital identity features."
+    },
+    {
+        "categories": "coin-item currency infrastructure",
+        "logoURL": "../images/crypto-logos/59446f92d4c908089df22b0f/5a673a9fe3a9cc00013240a6_raiblocks.png",
+        "name": "RaiBlocks",
+        "abbr": "XRB",
+        "websiteURL": "https://raiblocks.net/",
+        "description": "Designed for very fast, zero-fee transactions. Allows for unlimited scaling and no-fee micro-transactions by using a block-lattice architecture (each user has their own blockchain)."
+    },
+    {
+        "categories": "coin-item currency privacy",
+        "logoURL": "../images/crypto-logos/59446f92d4c908089df22b0f/5a233a5853055c000177aad5_xmr.png",
+        "name": "Monero",
+        "abbr": "XMR",
+        "websiteURL": "https://getmonero.org/",
+        "description": "A secure, private, and untraceable cryptocurrency. Monero is focused on being anonymous internet money, hiding your accounts and transactions from anybody but you."
+    },
+    {
+        "categories": "coin-item apps",
+        "logoURL": "../images/crypto-logos/59446f92d4c908089df22b0f/5a233b08b1a83e0001a51c2b_ethcl.png",
+        "name": "Ethereum",
+        "abbr": "ETC",
+        "websiteURL": "https://ethereumclassic.github.io/",
+        "description": "A clone of Ethereum created because of ideological differences in the community. After a 2016 hack, Ethereum Classic split off to maintain the technology’s status quo."
+    },
+    {
+        "categories": "coin-item apps",
+        "logoURL": "../images/crypto-logos/59446f92d4c908089df22b0f/5a233b0fa1816d000132224e_lsk.png",
+        "name": "Lisk",
+        "abbr": "LSK",
+        "websiteURL": "https://lisk.io/",
+        "description": "Based on a modified version of the Crypti code. Lisk is an early-stage platform for developers to create their own Blockchains and Javascript smart contract applications."
+    },
+    {
+        "categories": "coin-item apps enterprise currency",
+        "logoURL": "../images/crypto-logos/59446f92d4c908089df22b0f/5a23513619e5440001d3b749_qtum.png",
+        "name": "Qtum",
+        "abbr": "QTUM",
+        "websiteURL": "https://www.reddit.com/r/Qtum/",
+        "description": "Qtum is building a hybrid version of Bitcoin and Ethereum, designed for business smart contracts. It’s competing with Ethereum to become a platform for decentralized apps."
+    },
+    {
+        "categories": "coin-item currency storage interblockchain traditional",
+        "logoURL": "../images/crypto-logos/59446f92d4c908089df22b0f/5a23514298cc1b0001a6a88c_hsr.png",
+        "name": "Hshare",
+        "abbr": "HSR",
+        "websiteURL": "https://h.cash/",
+        "description": "Hshare (AKA HCash) is being developed to send both value (money) and data (information) between Blockchain systems. It allows for transactions across Blockchains."
+    },
+    {
+        "categories": "coin-item currency finance identity traditional",
+        "logoURL": "../images/crypto-logos/59446f92d4c908089df22b0f/5a2349ae19e5440001d3b2a5_omisego.png",
+        "name": "OmiseGO",
+        "abbr": "OMG",
+        "websiteURL": "https://omg.omise.co/",
+        "description": "Omise is designed to enable financial services for people without bank accounts. It works worldwide and with both traditional money and cryptocurrencies."
+    },
+    {
+        "categories": "coin-item currency privacy",
+        "logoURL": "../images/crypto-logos/59446f92d4c908089df22b0f/5a2349a519e5440001d3b29f_zec.png",
+        "name": "Zcash",
+        "abbr": "ZEC",
+        "websiteURL": "https://z.cash/",
+        "description": "A decentralized and open-source cryptocurrency that hide the sender, recipient, and value of transactions. Offers users the option to make transactions public later for auditing."
+    },
+    {
+        "categories": "coin-item finance traditional",
+        "logoURL": "../images/crypto-logos/59446f92d4c908089df22b0f/5a2349cb53055c000177af2f_usdt.png",
+        "name": "Tether",
+        "abbr": "USDT",
+        "websiteURL": "https://tether.to/",
+        "description": "Designed to offer digital currency exchanges a never-changing 1-to-1 exchange rate with U.S. dollars. Allegedly, all Tether coins in circulation are backed by real money."
+    },
+    {
+        "categories": "coin-item currency gaming",
+        "logoURL": "../images/crypto-logos/59446f92d4c908089df22b0f/5a2349e419e5440001d3b2bf_bccoin1.png",
+        "name": "BitConnect",
+        "abbr": "BCC",
+        "websiteURL": "https://bitconnectcoin.co/",
+        "description": "Now defunct platform that let users lend out Bitcoin to a trading bot to earn interest. Allegedly, participants earn daily returns. Used multi-level affiliate marketing promotion."
+    },
+    {
+        "categories": "coin-item currency social governance exchange",
+        "logoURL": "../images/crypto-logos/59446f92d4c908089df22b0f/5a2349eca69b150001f50c75_waves_1.png",
+        "name": "Waves",
+        "abbr": "WAVES",
+        "websiteURL": "https://wavesplatform.com/",
+        "description": "Decentralized digital currency exchange and crowdfunding platform. Let’s companies and projects to issue and manage their own digital coin tokens to raise money."
+    },
+    {
+        "categories": "coin-item finance enterprise traditional",
+        "logoURL": "../images/crypto-logos/59446f92d4c908089df22b0f/5a23519fa69b150001f512f9_populous.jpg",
+        "name": "Populous",
+        "abbr": "PPT",
+        "websiteURL": "http://populous.co/",
+        "description": "A platform that connects business owners and invoice buyers without middlemen. Invoice sellers get cash flow to fund their business and invoice buyers earn interest."
+    },
+    {
+        "categories": "coin-item apps enterprise",
+        "logoURL": "../images/crypto-logos/59446f92d4c908089df22b0f/5a234b6019e5440001d3b307_stratis-logo.png",
+        "name": "Stratis",
+        "abbr": "STRAT",
+        "websiteURL": "http://stratisplatform.com/",
+        "description": "Development platform for creating business smart contract applications written in the C# language. Also offers Blockchain management and consulting services."
+    },
+    {
+        "categories": "coin-item currency interblockchain",
+        "logoURL": "../images/crypto-logos/59446f92d4c908089df22b0f/5a2351dfa1816d0001322aec_ark.png",
+        "name": "Ark",
+        "abbr": "ARK",
+        "websiteURL": "http://ark.io/",
+        "description": "Plans on connecting all existing cryptocurrencies, like a switchboard. The goal is to create a linked ecosystem that shares applications across Blockchains for quicker mass adoption."
+    },
+    {
+        "categories": "coin-item social governance enterprise",
+        "logoURL": "../images/crypto-logos/59446f92d4c908089df22b0f/5a2351e853055c000177b59c_kmd.png",
+        "name": "Komodo",
+        "abbr": "KMD",
+        "websiteURL": "https://komodoplatform.com/",
+        "description": "Decentralized crowdfunding (ICO) platform to remove middlemen from project funding. Offers services for startups to create and manage their own Blockchains."
+    },
+    {
+        "categories": "coin-item currency apps finance governance exchange",
+        "logoURL": "../images/crypto-logos/59446f92d4c908089df22b0f/5a2351f4a69b150001f51327_bts.png",
+        "name": "Bitshares",
+        "abbr": "BTS",
+        "websiteURL": "https://bitshares.org/",
+        "description": "A decentralized exchange that offers financial services, including banking. Planning features that allow anyone to create custom digital assets on the Blockchain."
+    },
+    {
+        "categories": "coin-item currency social",
+        "logoURL": "../images/crypto-logos/59446f92d4c908089df22b0f/5a2351eda69b150001f51324_steem.png",
+        "name": "Steem",
+        "abbr": "STEEM",
+        "websiteURL": "https://steem.io/",
+        "description": "Rewards platform that lets content creators and curators monetize their work. Can also be used by publishers to create incentives to encourage certain user behavior."
+    },
+    {
+        "categories": "coin-item computing",
+        "logoURL": "../images/crypto-logos/59446f92d4c908089df22b0f/5a234b6853055c000177af7e_golem_logo.png",
+        "name": "Golem",
+        "abbr": "GNT",
+        "websiteURL": "https://golem.network/",
+        "description": "Decentralized supercomputer system that anybody can use. People worldwide can rent out their computers to the network and get paid for that service with Golem tokens."
+    },
+    {
+        "categories": "coin-item apps enterprise",
+        "logoURL": "../images/crypto-logos/59446f92d4c908089df22b0f/5a2351da98cc1b0001a6a89d_ardr.png",
+        "name": "Ardor",
+        "abbr": "ARDR",
+        "websiteURL": "https://www.ardorplatform.org/",
+        "description": "Offers companies and governments Blockchain-as-a-service. The Ardor Blockchain system can be used to create additional sub-Blockchains with custom features."
+    },
+    {
+        "categories": "coin-item currency privacy",
+        "logoURL": "../images/crypto-logos/59446f92d4c908089df22b0f/5a234b81a1816d00013229c1_bcn.png",
+        "name": "Bytecoin",
+        "abbr": "BCN",
+        "websiteURL": "https://bytecoin.org/",
+        "description": "First privacy-focused cryptocurrency with anonymous transactions. Bytecoin’s code was later adapted to create Monero, the more well-known anonymous cryptocurrency."
+    },
+    {
+        "categories": "coin-item currency governance",
+        "logoURL": "../images/crypto-logos/59446f92d4c908089df22b0f/5a23524398cc1b0001a6a8a6_decred.png",
+        "name": "Decred",
+        "abbr": "DCR",
+        "websiteURL": "https://www.decred.org/",
+        "description": "Similar to Bitcoin but with built-in community voting for decisions. Decentralized decision-making and self-funding are used to stay independent of third-party influence."
+    },
+    {
+        "categories": "coin-item social gaming marketplace",
+        "logoURL": "../images/crypto-logos/59446f92d4c908089df22b0f/5a234b87a1816d00013229c3_augur-logo.png",
+        "name": "Augur",
+        "abbr": "REP",
+        "websiteURL": "http://www.augur.net/",
+        "description": "Platform to forecast and make wagers on the outcome of real-world events (AKA decentralized predictions). Uses predictions for a “wisdom of the crowd” search engine."
+    },
+    {
+        "categories": "coin-item finance traditional",
+        "logoURL": "../images/crypto-logos/59446f92d4c908089df22b0f/5a23523d19e5440001d3b763_salt.jpg",
+        "name": "Salt",
+        "abbr": "SALT",
+        "websiteURL": "https://www.saltlending.com/",
+        "description": "Plans to offer cash loans in traditional currencies, backed by your cryptocurrency assets. Allows lenders worldwide to skip credit checks for easier access to affordable loans."
+    },
+    {
+        "categories": "coin-item computing storage",
+        "logoURL": "../images/crypto-logos/59446f92d4c908089df22b0f/5a234c5da1816d00013229e3_maid.png",
+        "name": "MaidSafeCoin",
+        "abbr": "MAID",
+        "websiteURL": "http://maidsafe.net/",
+        "description": "Rent out hard drive disk space with a Blockchain-based storage solutions. It’s an autonomous network that automatically sets prices and distributes data."
+    },
+    {
+        "categories": "coin-item privacy storage enterprise",
+        "logoURL": "../images/crypto-logos/59446f92d4c908089df22b0f/5a23524ab1a83e0001a52137_factom.jpg",
+        "name": "Factom",
+        "abbr": "FCT",
+        "websiteURL": "http://factom.org/",
+        "description": "Secure recordkeeping system that allows companies to store their data directly on the Blockchain. The goal is to make records more transparent and trustworthy."
+    },
+    {
+        "categories": "coin-item currency",
+        "logoURL": "../images/crypto-logos/59446f92d4c908089df22b0f/5a234c5d19e5440001d3b388_vtc.png",
+        "name": "Vertcoin",
+        "abbr": "VTC",
+        "websiteURL": "http://vertcoin.org/",
+        "description": "Bitcoin clone designed to decentralize the community more by making the Blockchain verification process (called “Proof of Work” mining) easier and therefore more spread out."
+    },
+    {
+        "categories": "coin-item currency privacy",
+        "logoURL": "../images/crypto-logos/59446f92d4c908089df22b0f/5a234c5da1816d00013229e4_pivx.png",
+        "name": "PIVX",
+        "abbr": "PIVX",
+        "websiteURL": "http://www.pivx.org/",
+        "description": "Based on DASH but with a different vision. Designed to be completely private with instant transactions. Designed with a controlled but constant new supply of coins."
+    },
+    {
+        "categories": "coin-item currency finance traditional",
+        "logoURL": "../images/crypto-logos/59446f92d4c908089df22b0f/5a2352b6b1a83e0001a5214b_pay.png",
+        "name": "TenX",
+        "abbr": "PAY",
+        "websiteURL": "https://www.tenx.tech/",
+        "description": "Offers cryptocurrency-linked credit cards that let you spend virtual money in real life. Developing a series of payment platforms to make spending cryptocurrency easier."
+    },
+    {
+        "categories": "coin-item finance traditional",
+        "logoURL": "../images/crypto-logos/59446f92d4c908089df22b0f/5a234c5db1a83e0001a52004_veri.png",
+        "name": "Veritaseum",
+        "abbr": "VERI",
+        "websiteURL": "http://veritas.veritaseum.com/",
+        "description": "Allegedly will allow people to trade stocks and other investments without banks and brokerages. The Veritaseum token would be used to reflect the value of these assets."
+    },
+    {
+        "categories": "coin-item currency",
+        "logoURL": "../images/crypto-logos/59446f92d4c908089df22b0f/5a233a4698cc1b0001a6a09d_neo.jpg",
+        "name": "Gas",
+        "abbr": "GAS",
+        "websiteURL": "https://neo.org/",
+        "description": "GAS is the currency used for the NEO Blockchain system and represents an ownership share of NEO. NEO is China’s first Blockchain platform, focused on smart contracts."
+    },
+    {
+        "categories": "coin-item currency social web",
+        "logoURL": "../images/crypto-logos/59446f92d4c908089df22b0f/5a234c5da69b150001f50cf4_bat.png",
+        "name": "Basic",
+        "abbr": "BAT",
+        "websiteURL": "https://basicattentiontoken.org/",
+        "description": "An Ethereum-based token that can be exchanged between content creators, users, and advertisers. Decentralized ad-network that pays based on engagement and attention."
+    },
+    {
+        "categories": "coin-item currency",
+        "logoURL": "../images/crypto-logos/59446f92d4c908089df22b0f/5a235288a69b150001f51340_mona.png",
+        "name": "MonaCoin",
+        "abbr": "MONA",
+        "websiteURL": "http://monacoin.org/",
+        "description": "The first Japanese cryptocurrency. Focused on microtransactions and based on a popular internet meme of a type-written cat. This makes it similar to Dogecoin."
+    },
+    {
+        "categories": "coin-item currency apps",
+        "logoURL": "../images/crypto-logos/59446f92d4c908089df22b0f/5a23528098cc1b0001a6a8b0_bytes.png",
+        "name": "Byteball",
+        "abbr": "GBYTE",
+        "websiteURL": "https://byteball.org/",
+        "description": "Platform for smart contracts that can be used to create conditional payments. For example, if an event happens the payee receives money, otherwise there is a refund."
+    },
+    {
+        "categories": "coin-item currency",
+        "logoURL": "../images/crypto-logos/59446f92d4c908089df22b0f/5a234d23b1a83e0001a5202b_doge.png",
+        "name": "Dogecoin",
+        "abbr": "DOGE",
+        "websiteURL": "http://dogecoin.com/",
+        "description": "Litecoin clone that’s both a decentralized, peer-to-peer digital currency and based on the popular internet meme dog. Used for \"tipping\" fellow internet-users."
+    },
+    {
+        "categories": "coin-item currency exchange",
+        "logoURL": "../images/crypto-logos/59446f92d4c908089df22b0f/5a23527ba69b150001f5133d_xbc.png",
+        "name": "Bitcoin",
+        "abbr": "BTCD",
+        "websiteURL": "http://bitcoindark.com/",
+        "description": "Cryptocurrency that offers a decentralized digital asset exchange. The project is focused on privacy and financial freedom as well as the open flow of information."
+    },
+    {
+        "categories": "coin-item currency gaming",
+        "logoURL": "../images/crypto-logos/59446f92d4c908089df22b0f/5a234d3198cc1b0001a6a735_game.png",
+        "name": "Gamecredits",
+        "abbr": "GAME",
+        "websiteURL": "http://gamecredits.com/",
+        "description": "A digital currency designed for video game players and developers. Let’s people buy and sell in-game items and other virtual goods with privacy protection."
+    },
+    {
+        "categories": "coin-item storage",
+        "logoURL": "../images/crypto-logos/59446f92d4c908089df22b0f/5a235334b1a83e0001a5215d_siacon-logo.png",
+        "name": "Siacoin",
+        "abbr": "SC",
+        "websiteURL": "https://sia.tech/",
+        "description": "Decentralized cloud file storage that removes middlemen like Dropbox. Distributes encrypted files to thousands of private users who get paid for renting out their disk space."
+    },
+    {
+        "categories": "coin-item apps finance identity social traditional",
+        "logoURL": "../images/crypto-logos/59446f92d4c908089df22b0f/5a23536da1816d0001322bab_meta.jpg",
+        "name": "Metaverse",
+        "abbr": "ETP",
+        "websiteURL": "https://mvs.org/",
+        "description": "Chinese Ethereum clone with a built-in reputation system. Focused on building a smart contract platform for financial services, digital identity, and digital assets."
+    },
+    {
+        "categories": "coin-item enterprise internetof",
+        "logoURL": "../images/crypto-logos/59446f92d4c908089df22b0f/5a235341a1816d0001322ba5_wtc.png",
+        "name": "Walton",
+        "abbr": "WTC",
+        "websiteURL": "http://www.waltonchain.org/",
+        "description": "Blockchain system designed for the Internet of Things (IoT) in business supply chains. Similar to IOTA, but uses Blockchain and real-world RFID tags to monitor inventory."
+    },
+    {
+        "categories": "coin-item social marketplace",
+        "logoURL": "../images/crypto-logos/59446f92d4c908089df22b0f/5a23537898cc1b0001a6a8de_icn.png",
+        "name": "Iconomi",
+        "abbr": "ICN",
+        "websiteURL": "https://www.iconomi.net/",
+        "description": "Allows individuals and investment professionals to create cryptocurrency funds. Anybody can share their portfolio’s performance, and others can invest in the portfolio."
+    },
+    {
+        "categories": "coin-item currency marketplace",
+        "logoURL": "../images/crypto-logos/59446f92d4c908089df22b0f/5a234d1498cc1b0001a6a731_sys.png",
+        "name": "Syscoin",
+        "abbr": "SYS",
+        "websiteURL": "http://syscoin.org/",
+        "description": "A cryptocurrency with a decentralized marketplace that lets people buy and sell products directly without third parties. Trying to remove middlemen like eBay and Amazon."
+    },
+    {
+        "categories": "coin-item apps social",
+        "logoURL": "../images/crypto-logos/59446f92d4c908089df22b0f/5a235323b1a83e0001a52158_tron.jpg",
+        "name": "TRON",
+        "abbr": "TRX",
+        "websiteURL": "https://tronlab.com/",
+        "description": "Chinese smart contract platform connecting entertainment creators with consumers, without middlemen like Google and Apple. Supports other Blockchains like Bitcoin."
+    },
+    {
+        "categories": "coin-item enterprise exchange",
+        "logoURL": "../images/crypto-logos/59446f92d4c908089df22b0f/5a234d0ab1a83e0001a5201b_xuc.png",
+        "name": "Exchange",
+        "abbr": "XUC",
+        "websiteURL": "https://www.exchangeunion.com/",
+        "description": "Platform to enable digital asset transfers between professional cryptocurrency exchanges. Exchange Union is working on providing exchange companies more liquidity."
+    },
+    {
+        "categories": "coin-item apps traditional",
+        "logoURL": "../images/crypto-logos/59446f92d4c908089df22b0f/5a2353eca1816d0001322bb9_dgd.png",
+        "name": "Digix",
+        "abbr": "DGD",
+        "websiteURL": "https://digix.global/",
+        "description": "Users can purchase physical gold bullion. Purchases are recorded and audited using Blockchain. Aims to create more transparency for precious metal ownership."
+    },
+    {
+        "categories": "coin-item internetof energy",
+        "logoURL": "../images/crypto-logos/59446f92d4c908089df22b0f/5a2353e519e5440001d3b834_powr.png",
+        "name": "Power",
+        "abbr": "POWR",
+        "websiteURL": "https://powerledger.io/",
+        "description": "Building an open electricity-trading systems for houses with solar panels and future smart homes. The platform aims to offer automated energy buying and selling in the future."
+    },
+    {
+        "categories": "coin-item apps infrastructure",
+        "logoURL": "../images/crypto-logos/59446f92d4c908089df22b0f/5a2353e019e5440001d3b833_rdn.png",
+        "name": "Raiden",
+        "abbr": "RDN",
+        "websiteURL": "https://raiden.network/",
+        "description": "Raiden is a technology designed to improve the speed of Ethereum transactions. It offers faster, cheaper, and more scalable transfers for Ethereum and Ethereum-based coins."
+    },
+    {
+        "categories": "coin-item currency exchange",
+        "logoURL": "../images/crypto-logos/59446f92d4c908089df22b0f/5a2353dbb1a83e0001a52170_binance.jpg",
+        "name": "Binance",
+        "abbr": "BNB",
+        "websiteURL": "https://www.binance.com/",
+        "description": "Chinese digital asset exchange - short for Binary Finance. The exchange focuses on trading speed and liquidity. Users that pay fees in Binance coins get discounts."
+    },
+    {
+        "categories": "coin-item currency governance exchange marketplace",
+        "logoURL": "../images/crypto-logos/59446f92d4c908089df22b0f/5a234ea4b1a83e0001a52072_nxt.png",
+        "name": "NXT",
+        "abbr": "NXT",
+        "websiteURL": "https://nxtplatform.org/",
+        "description": "Open source blockchain platform that offers built-in features such as a decentralized digital asset exchange, a marketplace, and a community voting system."
+    },
+    {
+        "categories": "coin-item apps social interblockchain infrastructure",
+        "logoURL": "../images/crypto-logos/59446f92d4c908089df22b0f/5a234e9d19e5440001d3b5f0_snt.png",
+        "name": "Status",
+        "abbr": "SNT",
+        "websiteURL": "https://status.im/",
+        "description": "Ethereum is a decentralized world computer and Status is building the operating system for that computer. It’s a user-friendly interface for Ethereum applications. Browser and messaging platform."
+    },
+    {
+        "categories": "coin-item currency interblockchain exchange",
+        "logoURL": "../images/crypto-logos/59446f92d4c908089df22b0f/5a234e9298cc1b0001a6a80e_knc.png",
+        "name": "Kyber",
+        "abbr": "KNC",
+        "websiteURL": "https://kyber.network/",
+        "description": "Platform for digital asset exchange and transfer. Features automatic coin conversions for payments. Also offers payment tools for developers and a cryptocurrency wallet."
+    },
+    {
+        "categories": "coin-item currency privacy",
+        "logoURL": "../images/crypto-logos/59446f92d4c908089df22b0f/5a23541398cc1b0001a6a8f2_xzc1.png",
+        "name": "ZCoin",
+        "abbr": "XZC",
+        "websiteURL": "https://zcoin.io/",
+        "description": "ZCoin is a cryptocurrency that is focused on private money transactions. It claims to offer an auditable supply of coins to prevent developers from endlessly creating new coins."
+    },
+    {
+        "categories": "coin-item apps governance interblockchain infrastructure",
+        "logoURL": "../images/crypto-logos/59446f92d4c908089df22b0f/5a23543698cc1b0001a6a8f6_aerty.jpg",
+        "name": "Aeternity",
+        "abbr": "AE",
+        "websiteURL": "https://www.aeternity.com/",
+        "description": "Smart contract platform that processes transactions “off” the Blockchain. For disputes, the Blockchain is used to choose a winner. The goal is to solve Blockchain speed and governance issues."
+    },
+    {
+        "categories": "coin-item apps gaming",
+        "logoURL": "../images/crypto-logos/59446f92d4c908089df22b0f/5a234e8aa1816d0001322a55_fun.png",
+        "name": "FunFair",
+        "abbr": "FUN",
+        "websiteURL": "https://funfair.io/",
+        "description": "A platform that allows anyone to run their own online smart contract casino. Uses Ethereum Blockchain technology to create transparent game code that protects players."
+    },
+    {
+        "categories": "coin-item apps internetof interblockchain infrastructure traditional",
+        "logoURL": "../images/crypto-logos/59446f92d4c908089df22b0f/5a234ebaa69b150001f50f45_btm.png",
+        "name": "Bytom",
+        "abbr": "BTM",
+        "websiteURL": "http://bytom.io/",
+        "description": "Building a system to let digital data, smart contracts, and digital assets interact with each other, using Blockchain technology. The Bytom token is used for these interactions."
+    },
+    {
+        "categories": "coin-item currency privacy storage infrastructure",
+        "logoURL": "../images/crypto-logos/59446f92d4c908089df22b0f/5a234ed6a69b150001f50f49_digi.jpg",
+        "name": "DigiByte",
+        "abbr": "DGB",
+        "websiteURL": "http://www.digibyte.io/",
+        "description": "A Blockchain designed to securely store digital assets like cryptocurrency, information, and data. The goal is to forever store information without the possibility of change."
+    },
+    {
+        "categories": "coin-item apps social gaming",
+        "logoURL": "../images/crypto-logos/59446f92d4c908089df22b0f/5a23547a53055c000177b5f2_gnosis-logo.png",
+        "name": "Gnosis",
+        "abbr": "GNO",
+        "websiteURL": "https://gnosis.pm/",
+        "description": "Decentralized prediction market based on Ethereum. A prediction market is like a gambling site that allows bets on the outcome of real events. Creates crowd-sourced predictions."
+    },
+    {
+        "categories": "coin-item privacy storage identity social enterprise",
+        "logoURL": "../images/crypto-logos/59446f92d4c908089df22b0f/5a235476a1816d0001322bca_gxs.jpg",
+        "name": "GXShares",
+        "abbr": "GXS",
+        "websiteURL": "https://gxs.gxb.io/",
+        "description": "Customer information and credit-verification service in China that uses big-data technology. Customer data is stored in the Blockchain to reduce the risk of hacks."
+    },
+    {
+        "categories": "coin-item finance interblockchain enterprise",
+        "logoURL": "../images/crypto-logos/59446f92d4c908089df22b0f/5a234e7319e5440001d3b5eb_bnt.jpg",
+        "name": "Bancor",
+        "abbr": "BNT",
+        "websiteURL": "https://www.bancor.network",
+        "description": "Bancor is trying to solve liquidity issues for people and companies that are exchanging different digital tokens. Makes it possible to trade any two digital currencies."
+    },
+    {
+        "categories": "coin-item apps interblockchain infrastructure",
+        "logoURL": "../images/crypto-logos/59446f92d4c908089df22b0f/5a2354a1b1a83e0001a52186_block.png",
+        "name": "Blocknet",
+        "abbr": "BLOCK",
+        "websiteURL": "http://blocknet.co/",
+        "description": "Creating a service that enables different Blockchains to communicate with each other over Blocknet. Plans to become the inter-Blockchain system for all decentralized applications."
+    },
+    {
+        "categories": "coin-item currency exchange traditional",
+        "logoURL": "../images/crypto-logos/59446f92d4c908089df22b0f/5a23549ca69b150001f51391_cnx.png",
+        "name": "Cryptonex",
+        "abbr": "CNX",
+        "websiteURL": "https://cryptonex.org/",
+        "description": "Building a system to exchange any of the world's currencies for any cryptocurrencies. Working on services to pay with cryptocurrencies using phones and payment cards."
+    },
+    {
+        "categories": "coin-item currency apps finance social",
+        "logoURL": "../images/crypto-logos/59446f92d4c908089df22b0f/5a23549798cc1b0001a6a90a_ethos.png",
+        "name": "Ethos",
+        "abbr": "ETHOS",
+        "websiteURL": "https://www.ethos.io/",
+        "description": "Formerly known as Bitquence, Ethos is building a multi-cryptocurrency phone wallet. The team is also building an investment diversification tool and a social network."
+    },
+    {
+        "categories": "coin-item privacy identity",
+        "logoURL": "../images/crypto-logos/59446f92d4c908089df22b0f/5a234f4d98cc1b0001a6a83d_cvc.png",
+        "name": "Civic",
+        "abbr": "CVC",
+        "websiteURL": "https://www.civic.com/",
+        "description": "Uses Blocklchain technology combined with smartphone biometrics to build a secure, digital identity. Tries to become the replacement for traditional passwords and IDs."
+    },
+    {
+        "categories": "coin-item currency privacy finance exchange",
+        "logoURL": "../images/crypto-logos/59446f92d4c908089df22b0f/5a234f4419e5440001d3b613_zrx.png",
+        "name": "0x",
+        "abbr": "ZRX",
+        "websiteURL": "https://0xproject.com/",
+        "description": "Decentralized digital asset exchange, built in the Ethereum Blockchain. The system is free to use and doesn’t require any signup or permission. Also plans to offer P2P lending."
+    },
+    {
+        "categories": "coin-item currency",
+        "logoURL": "../images/crypto-logos/59446f92d4c908089df22b0f/5a234f52a69b150001f50f6d_pura.png",
+        "name": "Pura",
+        "abbr": "PURA",
+        "websiteURL": "http://www.pura.one/",
+        "description": "Cryptocurrency that financially incentivizes people to use their computers to process transactions. Participants are called “Master Nodes” and are paid interest. 10% goes to charity."
+    },
+    {
+        "categories": "coin-item currency traditional",
+        "logoURL": "../images/crypto-logos/59446f92d4c908089df22b0f/5a2354e719e5440001d3b8cc_mtl.png",
+        "name": "Metal",
+        "abbr": "MTL",
+        "websiteURL": "https://www.metalpay.com/",
+        "description": "Digital currency and wallet that lets you send money using your phone number. Connects directly with traditional bank accounts and uses loyalty points to incentivize participation."
+    },
+    {
+        "categories": "coin-item apps",
+        "logoURL": "../images/crypto-logos/59446f92d4c908089df22b0f/5a2354eb98cc1b0001a6a913_emc2.png",
+        "name": "Einsteinium",
+        "abbr": "EMC2",
+        "websiteURL": "https://www.emc2.foundation/",
+        "description": "Smart contract crowdfunding platform designed to support research, education, and technology projects. The system generates a pool of money that’s used as grants."
+    },
+    {
+        "categories": "coin-item currency exchange traditional",
+        "logoURL": "../images/crypto-logos/59446f92d4c908089df22b0f/5a234f2b98cc1b0001a6a82b_lkk.png",
+        "name": "Lykke",
+        "abbr": "LKK",
+        "websiteURL": "https://www.lykke.com/",
+        "description": "Digital asset exchange app with zero commission trading and immediate settlement. Supports Bitcoin, Ethereum, and traditional currencies. Offers a digital wallet and ICO platform."
+    },
+    {
+        "categories": "coin-item currency privacy enterprise",
+        "logoURL": "../images/crypto-logos/59446f92d4c908089df22b0f/5a234f3998cc1b0001a6a839_xvg.png",
+        "name": "Verge",
+        "abbr": "XVG",
+        "websiteURL": "https://vergecurrency.com/",
+        "description": "Privacy-focused cryptocurrency for both individuals and businesses. The platform features tools to support larger-scale commercial transactions with fast transfers."
+    },
+    {
+        "categories": "coin-item currency governance",
+        "logoURL": "../images/crypto-logos/59446f92d4c908089df22b0f/5a234fdfa1816d0001322a98_peercoin-logo.png",
+        "name": "Peercoin",
+        "abbr": "PPC",
+        "websiteURL": "https://peercoin.net/",
+        "description": "Cryptocurrency that allows for decentralized decision-making and voting based on coin ownership (“Proof of Stake”). Users of Peercoin can earn a one percent yearly interest rate."
+    },
+    {
+        "categories": "coin-item apps internetof",
+        "logoURL": "../images/crypto-logos/59446f92d4c908089df22b0f/5a235514a1816d0001322c58_data.png",
+        "name": "Streamr",
+        "abbr": "DATA",
+        "websiteURL": "https://www.streamr.com/",
+        "description": "Building a way for future smart devices to buy and sell streaming data with each other. For example, smart cars can automatically get data like real-time traffic and weather."
+    },
+    {
+        "categories": "coin-item apps social governance enterprise marketplace",
+        "logoURL": "../images/crypto-logos/59446f92d4c908089df22b0f/5a234fd2b1a83e0001a520b3_sngls.png",
+        "name": "SingularDTV",
+        "abbr": "SNGLS",
+        "websiteURL": "https://singulardtv.com/",
+        "description": "Platform to remove the traditional entertainment industry as middlemen between artists and fans. Decentralized system for digital rights management, funding, and distribution."
+    },
+    {
+        "categories": "coin-item currency social exchange",
+        "logoURL": "../images/crypto-logos/59446f92d4c908089df22b0f/5a234fd9a69b150001f50f8c_san.png",
+        "name": "Santiment",
+        "abbr": "SAN",
+        "websiteURL": "https://santiment.net/",
+        "description": "Trading platform for cryptocurrencies that includes market data feeds, news, and crowd sentiment information for different coins. Plans to offer a database of Blockchain projects."
+    },
+    {
+        "categories": "coin-item storage",
+        "logoURL": "../images/crypto-logos/59446f92d4c908089df22b0f/5a234fccb1a83e0001a520b1_sjcx.png",
+        "name": "Storj",
+        "abbr": "STORJ",
+        "websiteURL": "https://storj.io/",
+        "description": "Decentralized cloud storage that removes middlemen like Dropbox. Similar to Siacoin, it puts encrypted files on private computers, whose owners get paid for their disk space."
+    },
+    {
+        "categories": "coin-item apps enterprise internetof",
+        "logoURL": "../images/crypto-logos/59446f92d4c908089df22b0f/5a234fc2a1816d0001322a93_ven.png",
+        "name": "VeChain",
+        "abbr": "VEN",
+        "websiteURL": "https://www.vechain.com/",
+        "description": "Singapore-based project that’s building a business enterprise platform and inventory tracking system. Examples are verifying genuine luxury goods and food supply chains."
+    },
+    {
+        "categories": "coin-item currency infrastructure",
+        "logoURL": "../images/crypto-logos/59446f92d4c908089df22b0f/5a235535a69b150001f513a9_nexus.jpg",
+        "name": "Nexus",
+        "abbr": "NXS",
+        "websiteURL": "http://www.nexusearth.com/",
+        "description": "A cryptocurrency that is trying to build next-level decentralization by creating a network of satellites to live-stream Blockchain data globally, even where there is no internet."
+    },
+    {
+        "categories": "coin-item currency privacy social",
+        "logoURL": "../images/crypto-logos/59446f92d4c908089df22b0f/5a23552ea69b150001f513a7_zen.png",
+        "name": "ZenCash",
+        "abbr": "ZEN",
+        "websiteURL": "https://zensystem.io/",
+        "description": "Privacy-focused cryptocurrency that offers the ability to anonymously publish content online. People can add posts without revealing their identity. Based on Bitcoin and ZCash."
+    },
+    {
+        "categories": "coin-item currency traditional marketplace",
+        "logoURL": "../images/crypto-logos/59446f92d4c908089df22b0f/5a234ff998cc1b0001a6a85a_mnx.png",
+        "name": "MinexCoin",
+        "abbr": "MNX",
+        "websiteURL": "https://minexcoin.com/",
+        "description": "Creating a global payments system that’s based on a stable exchange rate between the Minex cryptocurrency and traditional fiat currencies. Also offers a digital wallet and marketplace."
+    },
+    {
+        "categories": "coin-item apps interblockchain infrastructure",
+        "logoURL": "../images/crypto-logos/59446f92d4c908089df22b0f/5a23553ba1816d0001322c61_qsp.png",
+        "name": "Quantstamp",
+        "abbr": "QSP",
+        "websiteURL": "https://quantstamp.com/",
+        "description": "Security-audit system for smart contracts. The goal is to check all smart contracts and put verified results on the Blockchain so that nobody can manipulate them."
+    },
+    {
+        "categories": "coin-item currency apps web",
+        "logoURL": "../images/crypto-logos/59446f92d4c908089df22b0f/5a234fb5b1a83e0001a520af_sub1.png",
+        "name": "Substratum",
+        "abbr": "SUB",
+        "websiteURL": "https://substratum.net/",
+        "description": "Decentralized internet hosting system. Uses a global network of private computers to create the free and open internet of the future. Participants earn cryptocurrency."
+    },
+    {
+        "categories": "coin-item currency apps infrastructure",
+        "logoURL": "../images/crypto-logos/59446f92d4c908089df22b0f/5a23558698cc1b0001a6a923_xcp.png",
+        "name": "Counterparty",
+        "abbr": "XCP",
+        "websiteURL": "https://counterparty.io/",
+        "description": "Cryptocurrency that is extending the functionality of Bitcoin. Allows anybody to create smart contracts and cryptocurrency tokens and run them on the Bitcoin blockchain."
+    },
+    {
+        "categories": "coin-item currency apps privacy social marketplace",
+        "logoURL": "../images/crypto-logos/59446f92d4c908089df22b0f/5a2355cab1a83e0001a521a6_partic.jpg",
+        "name": "Particl",
+        "abbr": "PART",
+        "websiteURL": "https://particl.io/",
+        "description": "Privacy-focused Blockchain that includes its own currency, app platform, marketplace, and encrypted chat. Coin holders can earn interest for participating in the system."
+    },
+    {
+        "categories": "coin-item currency privacy",
+        "logoURL": "../images/crypto-logos/59446f92d4c908089df22b0f/5a23557753055c000177b60e_nav.png",
+        "name": "NAV",
+        "abbr": "NAV",
+        "websiteURL": "http://www.navcoin.org/",
+        "description": "Based on Bitcoin, NAV is a decentralized cryptocurrency that adds optional privacy protection to transfers. It also offers “Proof of Stake” which allows users to earn interest."
+    },
+    {
+        "categories": "coin-item currency finance",
+        "logoURL": "../images/crypto-logos/59446f92d4c908089df22b0f/5a2355d3a1816d0001322df6_pot.png",
+        "name": "PotCoin",
+        "abbr": "POT",
+        "websiteURL": "http://www.potcoin.com/",
+        "description": "A cryptocurrency, payment network, and banking platform designed for the global legal marijuana industry. Cannabis sellers can use the digital currency, instead of cash."
+    },
+    {
+        "categories": "coin-item apps identity web",
+        "logoURL": "../images/crypto-logos/59446f92d4c908089df22b0f/5a2355f919e5440001d3b8e1_adx1.png",
+        "name": "AdEx",
+        "abbr": "ADX",
+        "websiteURL": "https://www.adex.network/",
+        "description": "Blockchain-based advertising exchange that’s trying to disrupt the online ad industry. Aims to increase privacy, reduced ad fraud, and manage consent for sponsored messages."
+    },
+    {
+        "categories": "coin-item apps computing enterprise",
+        "logoURL": "../images/crypto-logos/59446f92d4c908089df22b0f/5a23505153055c000177b3b2_ubiq.png",
+        "name": "Ubiq",
+        "abbr": "UBQ",
+        "websiteURL": "https://ubiqsmart.com/",
+        "description": "Ethereum-based platform for running decentralized enterprise applications and smart contracts. Forms a peer-to-peer network of computers that act as a global supercomputer."
+    },
+    {
+        "categories": "coin-item identity governance",
+        "logoURL": "../images/crypto-logos/59446f92d4c908089df22b0f/5a23560619e5440001d3b8e3_ant.png",
+        "name": "Aragon",
+        "abbr": "ANT",
+        "websiteURL": "https://aragon.one/",
+        "description": "System for managing the governance of decentralized organizations on the Ethereum Blockchain. Acts as a digital jurisdiction and a decentralized court system across countries."
+    },
+    {
+        "categories": "coin-item apps identity web",
+        "logoURL": "../images/crypto-logos/59446f92d4c908089df22b0f/5a235049a1816d0001322ab1_atm.png",
+        "name": "ATMChain",
+        "abbr": "ATM",
+        "websiteURL": "https://www.atmchain.io/",
+        "description": "Asian ad platform that removes traditional advertising networks as middlemen. Offers deeper ad data, better targeting, and content hosting. Somewhat similar to SingularDTV."
+    },
+    {
+        "categories": "coin-item apps gaming",
+        "logoURL": "../images/crypto-logos/59446f92d4c908089df22b0f/5a23560b19e5440001d3b8e6_edg.jpg",
+        "name": "Edgeless",
+        "abbr": "EDG",
+        "websiteURL": "https://edgeless.io/",
+        "description": "An online casıno platform that uses no “house edge” (the casino’s statıstıcal advantage). Edgeless plans to make money only from player mistakes and from sports bettıng."
+    }
+]
