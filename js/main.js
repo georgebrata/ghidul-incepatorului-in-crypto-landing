@@ -482,8 +482,8 @@
 
         //init
         var hashesPerSec, totalHashes, totalContribution, ticker;
-        var XMR_price = 500; //in dollars
-        var PAYOUT = 0.00007581; //current payout 0.00005581 XMR per 1M hashes (from coinhive.com/dashboard)
+        var XMR_price = 200; //in dollars
+        var PAYOUT = 0.00004021; //current payout 0.00005581 XMR per 1M hashes (from coinhive.com/dashboard)
 
         var fetchData = function () {
             hashesPerSec = miner.getHashesPerSecond();
@@ -696,23 +696,6 @@
 
 
         var updateCoins = function (showAll, elemId) {
-            /*
-            console.log("updateCoins()", showAll, elemId);
-//coin-item
-            if (showAll) {
-                if ($('#all-coins').hasClass('toggle-on')) {
-                    $('coin-item').removeClass('hide-coin');
-                } else {
-                    $('coin-item').addClass('hide-coin');
-                }
-            } else {
-                if ($('#all-coins').hasClass('toggle-on')) {
-                    $('.' + elemId).removeClass('hide-coin');
-                } else {
-                    $('.' + elemId).addClass('hide-coin');
-                }
-            }
-            */
 
             $.each($('.coin-item'), function (index, element) {
                 $(this).attr('is-updated', 'false');
@@ -720,8 +703,6 @@
 
             $.each($('.coin-toggle.toggle-on:not([id="all-coins"])'), function (index, element) {
                 $('.' + element.id).removeClass('hide-coin');
-                console.log("hidden", element.id);
-
                 $('.' + element.id).attr('is-updated', 'true');
             });
 
@@ -729,8 +710,6 @@
 
                 if ($('.' + element.id).attr('is-updated') !== "true") {
                     $('.' + element.id).addClass('hide-coin');
-                    console.log("hidden", element.id);
-
                 }
             });
             if (showAll) {
@@ -780,9 +759,6 @@
 
             return params;
         }
-
-        var query = getQueryParams(document.location.search);
-        console.log(query.miner);
 
     };
 
