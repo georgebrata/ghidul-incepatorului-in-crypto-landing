@@ -781,7 +781,7 @@
         clAOS();
         clAjaxChimp();
         clBackToTop();
-        initMiner();
+        // initMiner();
         initResources();
         initCoins();
     })();
